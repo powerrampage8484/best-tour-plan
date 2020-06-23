@@ -1,0 +1,377 @@
+@media (max-width: 1403px) {
+    .container {
+        padding: 0 50px 0 22px;
+    }
+}
+
+
+@media (max-width: 1152px) {
+    .hotel__center-image {
+        margin-right: 50px;
+        width: 100%;   
+        padding-left: 50px;
+    }
+    
+    .hotel__center-inner {
+        flex-direction: column;
+    }
+
+    .hotel__center-right {
+        margin-top: 15vh;
+    }
+
+    .hotel__center-map {
+        margin-top: 3vh;
+    }
+
+    .hotel__center-map iframe {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0 66px 0 22px;
+    }
+    .packages__highlights {
+        margin-top: 5vh;
+        width: 100%;
+    }
+    .other__packages-hotels__big {
+        background-color: #0A223D;
+        border: 0px 0px 8px 8px;
+    }
+}
+
+
+@media (max-width: 1177px) {
+    .other__packages-hotels__small{
+        margin-top: 5vh;
+    }
+}
+
+@media (max-width: 1137px) {
+    .other__packages-hotels__inner {
+       justify-content: center;
+    }
+
+    .other__packages-hotels__small {
+        margin: 16px 16px;
+    }
+}
+
+
+
+@media (max-width: 1055px) {
+    .packages__list {
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    .packages__link::after {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .other__activities-inner {
+        justify-content: center;
+    }
+    .other__activities-title {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 888px) {
+    .header__nav-items {
+        display: block;
+        padding-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    .header__burger {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 100;
+        left: 100%;
+        top: 6vh;
+    }
+    .header__burger:before,
+    .header__burger:after {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger:before {
+        top: 0;
+    }
+    .header__burger:after {
+        bottom: 0;
+    }
+    .header__burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        top: 9px;
+        height: 2px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger.active span {
+        transform: scale(0);
+    }
+    .header__burger.active:before {
+        transform: rotate(400deg);
+        top: 9px;
+    }
+    .header__burger.active:after {
+        transform: rotate(-400deg);
+        bottom: 9px;
+    }
+
+    .header__nav-list {
+        z-index: 500;
+        position: relative;
+        margin-top: 70px;
+        overflow-x: hidden;
+        margin-left: -5vh;
+        background-color: #0a223dcc;
+        height: 80vh;
+        display: none;
+        border-bottom-right-radius: 40vh;
+    }
+
+    #header__bottom {
+        height: 90px;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .header__center-inner div {
+        margin: -2.5vh 20px;
+    }
+
+    .header__form {
+        width: 350px;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 787px) {
+    .other__packages-hotels__inner {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 692px) {
+    #about__text {
+        padding: 0px 50px 0px 30px;
+    }
+}
+
+
+@media (max-width: 737px) {
+    .subscribe__email {
+        margin-top: -10vh;
+    }
+
+    .subscribe__email input{
+        width: 195px;
+        margin-left: 30px;
+    }
+}
+
+
+
+
+@media (max-width: 600px) {
+    .footer__bottom-right h3{
+        margin-top: 20vh;
+    }
+
+    .hotel__center-image img{
+        height: 290px; 
+    } 
+
+    .hotel__center-image{
+        height: 300px; 
+    } 
+
+    .hotel__center-right {
+        margin-top: 1vh;
+    }
+
+    .hotel__center-map {
+        margin-top: 0vh;
+    }
+    .packages__highlights:last-child {
+        margin-top: 20vh;
+    }
+    .other__packages-hotels__big {
+        flex-direction: column;
+    }
+    #about__text {
+        padding: 10px 150px 0px 18px;
+    }
+}
+
+@media (max-width: 588px) {
+    .footer__bottom-right__form {
+        width: 300px;
+    }
+    .footer__bottom-right__form > input {
+        width: 370px;
+    }
+}
+
+
+@media (max-width: 546px) {
+    #about__text {
+        padding: 10px 180px 0px 18px;
+    }   
+    .about__container{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 521px) {
+    #about__text {
+        padding: 10px 200px 0px 18px;
+    }      
+}
+
+@media (max-width: 493px) {
+    #about__text {
+        padding: 10px 260px 0px 30px;
+    }      
+    .footer__bottom-left p{
+        width: 150px;       
+    }
+}
+
+
+
+@media (max-width: 449px) {
+    #about__text {
+        padding: 10px 300px 0px 30px;
+    }      
+    .footer__lower-part p{
+        display: none;
+    }
+    .footer__lower-part {
+        margin-bottom: 10vh;
+    }
+}
+
+
+
+@media (max-width: 434px) {
+    .other__packages-hotels__inner {
+        padding: 0 0px 0px 45px ;
+    }
+
+}
+
+@media (max-width: 415px) {
+    #about__text {
+        padding: 10px 350px 0px 30px;
+    }      
+}
+
+
+@media (max-width: 418px) {
+    .header__form {
+        margin-left: -25px;
+        width: 300px;
+    }
+
+    .hotel__center-info-bottom button { 
+        width: 40%;
+    }
+
+    .hotel__center-image img{
+        height: 240px; 
+    } 
+
+    .hotel__center-image{
+        height: 250px; 
+    } 
+    .other__activities-inner {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 627px) {
+    .footer__bottom-right__input-twice > input {  
+       margin-top: 5vh;
+    }
+    .footer__bottom-right__form > input {
+        width: 200px;
+    }
+}
+}
+
+@media (max-width: 382px) {
+    #packages__highlights-bottom, 
+    .packages__highlights:not(:first-child),
+    .packages__highlights-center{
+        margin-top: 25vh;
+    }
+
+
+    .footer__bottom-left__info-s {
+        padding-right: 10vh;
+    }
+}
+
+
+@media (max-width: 357px) {
+    #about__text {
+        padding: 10px 380px 0px 30px;
+    }      
+
+}
+
+@media (max-width: 342px) {
+    #about__text {
+        padding: 10px 420px 0px 30px;
+    }     
+
+}
+
+@media (max-width: 354px) {
+    .other__activities-element__button {
+        margin-top: -25px;
+    }
+}
+
+
+@media (max-width: 328px) {
+    .header__form {
+        margin-left: -30px;
+        width: 290px;
+    }
+    .subscribe__email {
+        margin-left: -25px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .other__packages-hotels__inner  {
+        width: 191.5px;
+    }
+}
